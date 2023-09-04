@@ -4,8 +4,6 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Buy us a tree][ico-treeware]][link-treeware]
 [![Build Status][ico-github-actions]][link-github-actions]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Made by SWIS][ico-swis]][link-swis]
 
@@ -96,15 +94,11 @@ This package is [Treeware](https://treeware.earth). If you use it in production,
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-treeware]: https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen.svg?style=flat-square
 [ico-github-actions]: https://img.shields.io/github/checks-status/swisnl/guzzle-sentry-breadcrumbs-middleware/master?label=tests&style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/swisnl/guzzle-sentry-breadcrumbs-middleware.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/swisnl/guzzle-sentry-breadcrumbs-middleware.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/swisnl/guzzle-sentry-breadcrumbs-middleware.svg?style=flat-square
 [ico-swis]: https://img.shields.io/badge/%F0%9F%9A%80-made%20by%20SWIS-%230737A9.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/swisnl/guzzle-sentry-breadcrumbs-middleware
 [link-github-actions]: https://github.com/swisnl/guzzle-sentry-breadcrumbs-middleware/actions/workflows/tests.yml
-[link-scrutinizer]: https://scrutinizer-ci.com/g/swisnl/guzzle-sentry-breadcrumbs-middleware/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/swisnl/guzzle-sentry-breadcrumbs-middleware
 [link-downloads]: https://packagist.org/packages/swisnl/guzzle-sentry-breadcrumbs-middleware
 [link-treeware]: https://plant.treeware.earth/swisnl/guzzle-sentry-breadcrumbs-middleware
 [link-author]: https://github.com/JaZo

@@ -102,7 +102,7 @@ class BreadcrumbMiddleware
 
     protected function filter(?string $string): ?string
     {
-        return $string ? str_replace($this->redactedStrings, '[FILTERED]', $string) : null;
+        return $string ? str_replace($this->redactedStrings, '[Filtered]', $string) : null;
     }
 
     protected function summarize(MessageInterface $request): ?string

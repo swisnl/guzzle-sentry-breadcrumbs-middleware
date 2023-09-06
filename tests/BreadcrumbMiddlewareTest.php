@@ -340,9 +340,9 @@ class BreadcrumbMiddlewareTest extends TestCase
                 self::callback(function (Breadcrumb $breadcrumb): bool {
                     $metadata = $breadcrumb->getMetadata();
 
-                    return $metadata['uri'] === 'https://example.com?auth=[FILTERED]'
-                        && $metadata['requestBody'] === 'foo-bar [FILTERED]'
-                        && $metadata['responseBody'] === 'foo-bar [FILTERED]';
+                    return $metadata['uri'] === 'https://example.com?auth=[Filtered]'
+                        && $metadata['requestBody'] === 'foo-bar [Filtered]'
+                        && $metadata['responseBody'] === 'foo-bar [Filtered]';
                 })
             );
         SentrySdk::setCurrentHub($hub);

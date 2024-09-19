@@ -42,7 +42,7 @@ class BreadcrumbMiddleware
     }
 
     /**
-     * @param \GuzzleHttp\BodySummarizerInterface|null $bodySummarizer
+     * @param BodySummarizerInterface|null $bodySummarizer
      *
      * @return $this
      */
@@ -80,7 +80,7 @@ class BreadcrumbMiddleware
         };
     }
 
-    protected function addBreadcrumb($start, RequestInterface $request, ResponseInterface $response = null): void
+    protected function addBreadcrumb($start, RequestInterface $request, ?ResponseInterface $response = null): void
     {
         SentrySdk::getCurrentHub()->addBreadcrumb(
             new Breadcrumb(

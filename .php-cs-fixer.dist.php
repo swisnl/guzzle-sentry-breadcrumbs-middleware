@@ -18,5 +18,6 @@ return (new PhpCsFixer\Config())
         'phpdoc_order' => true,
         'yoda_style' => false,
         'no_superfluous_phpdoc_tags' => false,
+        'trailing_comma_in_multiline' => ['after_heredoc' => true, 'elements' => ['array_destructuring', 'arrays', 'match']],
     ])
 ;
